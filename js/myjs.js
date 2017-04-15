@@ -1,9 +1,5 @@
 $(document).ready(function() {
 	var showPhotos = function(photos){
-		$.get( "../photography.json", function( data ) {
-			console.log(data);
-		});
-
 		var photos = [];
 		$.ajax({
 			url: "https://api.imgur.com/3/account/harishv/album/lMXdg",
