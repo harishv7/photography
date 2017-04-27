@@ -32,20 +32,11 @@ $(document).ready(function() {
                     getSize: function(photo) {
                         return { width: photo.width, height: photo.height };
                     },
-                    margin: 5
+                    margin: 3
                 });
             },
             type: 'GET'
         });
-        //		var photos = [{
-        //			src: "http://placehold.it/350x150",
-        //			width_s: 350,
-        //			height_s: 150
-        //		},{
-        //			src: "http://placehold.it/550x650",
-        //			width_s: 550,
-        //			height_s: 650
-        //		}];
     }
     showPhotos();
 });
