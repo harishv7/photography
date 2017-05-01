@@ -6,7 +6,7 @@ $(document).ready(function() {
             headers: { "Authorization": "Client-ID 15c2f7712f1356c" },
             success: function(data) {
                 // data is the object from imgur
-                console.log(data);
+                // console.log(data);
                 var images = data.data.images;
 
                 for (var i = 0; i < images.length; i++) {
