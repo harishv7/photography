@@ -11,7 +11,7 @@ $(document).ready(function() {
 
                 for (var i = 0; i < images.length; i++) {
                     photos.push({
-                        src: images[i].link.replace("http", "https"),
+                        src: images[i].link,
                         width: images[i].width,
                         height: images[i].height
                     });
